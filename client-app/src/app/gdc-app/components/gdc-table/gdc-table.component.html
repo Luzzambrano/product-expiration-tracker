@@ -1,0 +1,13 @@
+<nb-card>
+  <nb-card-header>
+    {{ title }}
+  </nb-card-header>
+
+  <nb-card-body>
+    <div class="smart-table-container">
+      <ng2-smart-table class="smart-table" [settings]="settings" [source]="data"
+        (deleteConfirm)="onDeleteConfirm($event)">
+      </ng2-smart-table>
+    </div>
+  </nb-card-body>
+</nb-card>
