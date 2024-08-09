@@ -114,12 +114,8 @@ El sistema se basa en una arquitectura cliente-servidor con los siguientes compo
 
 ### Configuración de Requerimientos
 1. Configura las variables de entorno necesarias:
-    ```sh
-    export DB_HOST=localhost
-    export DB_USER=root
-    export DB_PASS=password
-    export DB_NAME=punto929
-    ```
+
+Los variable de entorno se encuentran en el archivo env
 
 ## Uso
 
@@ -151,7 +147,11 @@ El sistema se basa en una arquitectura cliente-servidor con los siguientes compo
 5. Abre un Pull Request en GitHub.
 
 ## Roadmap
+
 ### Próximos Requerimientos
-- Integración con sistemas de pago.
-- Mejora en el sistema de notificaciones.
-- Implementación de análisis predictivo para gestión de inventarios.
+
+- Implementacion de modulo para actualizar, agregar y buscar productos.
+- Visualizacion de reportes mensuales.
+- Implementación de los controles del dashboard con analisis del negocio.
+- Creación de pipeline para integración continua
+- Generar modulo de notificaciones por correo electronico y SMS
