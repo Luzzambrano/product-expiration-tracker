@@ -1,0 +1,15 @@
+@import '../../../@theme/styles/themes';
+
+@include nb-install-component() {
+  nb-card {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.card-body-table-container {
+  overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.smart-table {
+  width: 2000px; /* Set a fixed width larger than the container if necessary */
+}
